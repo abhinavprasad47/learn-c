@@ -1,7 +1,9 @@
 #include <stdio.h>
 
-int main(int argc, char **argv)
+void main()
 {
-	printf("give me a bottle of rum!\n");
-	return 0;
+	int a=5,b=-7,c=0,d;
+	d=++a && ++b || ++c;
+	printf("\n%d%d%d%d",a,b,c,d);
+	
 }
