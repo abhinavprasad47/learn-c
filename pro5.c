@@ -3,7 +3,7 @@ void main()
 {
  	double ch;
 	printf("enter");
-	scanf("%lf",&ch);
+	scanf("%Lf",&ch);
 	switch(ch)
 	{
 		case 1: printf("1");
